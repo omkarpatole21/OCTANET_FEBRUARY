@@ -1,0 +1,536 @@
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+
+    background-image: url('header-background.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+section {
+    padding: 20px;
+}
+
+#home {
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #1131e9;
+}
+#destinations {
+    background-color: #f4f4f4; 
+    padding: 20px; 
+}
+
+.destination {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.destination img {
+    max-width: 100%;
+    height: auto;
+}
+
+.destination h3 {
+    margin-top: 10px;
+}
+
+.destination p {
+    margin-bottom: 10px;
+}
+
+#packages {
+    background-color: #f4f4f4;
+}
+
+.package {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #5e9cff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #4a87e5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.search-bar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #e0f808d7;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2dee13;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.explore-button:hover {
+    background-color: #777;
+    color: #ff4500;
+}
+
+header h1::first-letter {
+    color: #ff4500; 
+}
+
+header h1 {
+    color: #5ff519; 
+}
+
+#destinations .destination {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#destinations .destination:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    background-color: #450be7;
+    color: #fc0101;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav:hover {
+    background-color: #777;
+}
+
+#packages {
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #777;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+body {
+    background-image: url('background.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+#packages {
+    background-image: url('packages-background.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #111010;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(240, 19, 19, 0.8); 
+}
+
+#destinations {
+    background-image: url('popular-destinations-bg.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px; 
+    color: #0a0a0a; 
+}
+
+.card {
+    background-image: url('card-background.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px; 
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(236, 203, 54, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h3,
+.card p {
+    margin: 10px 0;
+}
+
+.card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card .btn:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.card2 {
+    border: 1px solid #111010;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(240, 19, 19, 0.8); 
+}
+
+.card2 {
+    background-image: url('card-background2.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card2 h3,
+.card2 p {
+    margin: 10px 0;
+}
+
+.card2 .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card2 .btn:hover {
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+
+.card3 {
+    border: 1px solid #111010;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(240, 19, 19, 0.8); 
+}
+
+.card3 {
+    background-image: url('card-background3.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 20px; 
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card3 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card3 h3,
+.card3 p {
+    margin: 10px 0;
+}
+
+.card3 .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card3:hover {
+    transform: scale(1.05);
+}
+
+.card3 .btn:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.user-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.user-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.user-links a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+#company {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.company-section {
+    max-width: 300px;
+}
+
+#company h2 {
+    color: #333;
+}
+
+#company p {
+    color: #666;
+}
+
+#newsletter {
+    background-color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+}
+
+#newsletter h2 {
+    color: #333;
+}
+
+#newsletter p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#newsletter form {
+    display: flex;
+    justify-content: center;
+}
+
+#newsletter label {
+    display: none;
+}
+
+#newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+#newsletter button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#newsletter button:hover {
+    background-color: #777;
+}
+
+#clock-container {
+        font-family: 'Arial', sans-serif;
+        font-size: 2em;
+        color: #fd0a0a;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f8f8f3;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(151, 231, 245);
+    }

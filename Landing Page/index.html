@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Travel Explorer</h1>
+    <p>Your gateway to amazing destinations</p>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button id="searchButton">Search</button>
+    </div>
+
+    
+    <div class="user-links">
+        <a href="#login">Login</a>
+        <a href="#signup">Sign Up</a>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Discover the World with Us</h2>
+    <p>Explore the most beautiful destinations and create unforgettable memories.</p>
+    <a href="#destinations" class="explore-button">Explore Destinations</a>
+</section>
+
+<section id="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destination">
+        <img src="paris.jpeg" alt="Paris">
+        <h3>Paris, France</h3>
+        <p>Experience the romance of the City of Light.</p>
+    </div>
+
+    <div class="destination">
+        <img src="beach.jpeg" alt="Beach">
+        <h3>Tropical Paradise</h3>
+        <p>Relax on pristine beaches and enjoy the sun.</p>
+    </div>
+
+    <div class="destination">
+        <img src="mountains.jpeg" alt="Mountains">
+        <h3>Mountain Retreat</h3>
+        <p>Escape to the serenity of the mountains.</p>
+    </div>
+</section>
+
+<section id="packages">
+    <h2>Travel Packages</h2>
+
+    <div class="card">
+        <img src="package1.jpeg" alt="Package 1">
+        <h3>City Explorer</h3>
+        <p>Discover the culture and history of vibrant cities.</p>
+        <p>Starting from $999</p>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+
+    <div class="card2">
+        <img src="package2.jpg" alt="Package 2">
+        <h3>Beach Getaway</h3>
+        <p>Enjoy sun, sea, and sand in exotic beach destinations.</p>
+        <p>Starting from $1299</p>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+
+    <div class="card3">
+        <img src="package3.jpg" alt="Package 3">
+        <h3>Mountain Adventure</h3>
+        <p>Embark on thrilling adventures in breathtaking mountain landscapes.</p>
+        <p>Starting from $1499</p>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+</section>
+
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or ready to plan your next trip? Contact us!</p>
+    <form action="submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section id="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Stay updated with the latest travel deals and destinations. Subscribe to our newsletter.</p>
+    <form action="#" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</section>
+
+<section id="company">
+    <div class="company-section">
+        <h2>About Us</h2>
+        <p>Discover the latest trends and high-quality travel experiences at Travel Explorer. We are dedicated to providing a curated collection that satisfies your wanderlust.</p>
+    </div>
+
+    <div class="company-section">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to our customer support team.</p>
+    </div>
+
+    <div class="company-section">
+        <h2>Gift Cards</h2>
+        <p>Give the gift of travel with Travel Explorer gift cards. Perfect for any occasion, our gift cards let your loved ones choose their dream destination.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Travel Explorer. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
